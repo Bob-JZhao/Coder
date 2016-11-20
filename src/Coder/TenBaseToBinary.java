@@ -13,7 +13,7 @@ public class TenBaseToBinary {
 		String Binary_s = Integer.toBinaryString(inputInter);
 		
 	 
-		String res_binary ="";
+		String res_binary =""; // used for store binary string
 		while(inputInter > 0){
 			res_binary = inputInter%2 + res_binary;
 			inputInter = inputInter/2;
